@@ -1,0 +1,32 @@
+function CreateCorp() {
+  return (
+    <form>
+    <label>
+      Corporation ID:
+      <input type="text" name="corpId" />
+    </label>
+    <br></br>
+    <label>
+      Long Name:
+      <input type="text" name="lname" />
+    </label>
+    <br></br>
+    <label>
+      Short Name:
+      <input type="text" name="sname" />
+    </label>
+    <br></br>
+    <label>
+      Reserved Assets:
+      <input type="text" name="ResAssets" />
+    </label>
+    <br></br>
+    <input type="submit" value="Create" />
+    <input type="submit" value="Cancel" />
+    </form>
+    
+
+  );
+}
+
+export default createCorp;
